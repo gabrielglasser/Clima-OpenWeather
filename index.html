@@ -22,7 +22,7 @@
             </button>
         </form>
 
-        <div id="weather">
+        <div id="weather" class="show">
             <h1 id="tile">Rolante, BR</h1>
 
             <div id="infos">
@@ -56,13 +56,13 @@
                         <div>
                             <h2>Temp. min</h2>
                             <p id="temp_min">
-                                32 <sup>C°</sup>
+                                12 <sup>C°</sup>
                             </p>
                         </div>
                     </div>
 
                     <div class="info">
-                        <i id="temp_min_icon" class="fa-solid fa-temperature-low"></i>
+                        <i id="humidy_icon" class="fa-solid fa-droplet"></i>
 
                         <div>
                             <h2>Humidade</h2>
@@ -70,11 +70,24 @@
                                 50%
                             </p>
                         </div>
+                        <div class="info">
+                            <i id="wind_icon" class="fa-solid fa-wind"></i>
+    
+                            <div>
+                                <h2>Humidade</h2>
+                                <p id="wind">
+                                    50km/h
+                                </p>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+
+        <div id="alert"></div>
+    </div>    
+
 </body>
 
 </html>
